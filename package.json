@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=12"
+  },
+  "directories": {
+    "src": "src",
+    "dist": "build"
+  },
+  "main": "src/index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "^23.1.0"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "format": "wp-scripts format"
+  }
+}
